@@ -8,12 +8,12 @@ variable "instance_names" {
 
 resource "aws_instance" "one" {
   count         = 4
-  ami           = "ami-0360c520857e3138f"
+  ami           = "ami-0bbdd8c17ed981ef9"
   instance_type = "t2.medium"
   key_name      = "vk"
 
   vpc_security_group_ids = [
-    "sg-01bcb08f745b9c635"
+    "sg-0b99f3b86d7394196"
   ]
 
   tags = {
