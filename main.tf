@@ -13,7 +13,7 @@ resource "aws_instance" "one" {
   key_name      = "vk"
 
   vpc_security_group_ids = [
-    "sg-0b99f3b86d7394196"
+    "sg-0db66269b50aad6bb"
   ]
 
   tags = {
